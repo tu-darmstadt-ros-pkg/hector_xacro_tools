@@ -1,25 +1,21 @@
 <?xml version="1.0"?>
-<package format="2">
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
   <name>hector_xacro_tools</name>
-  <version>0.5.2</version>
+  <version>0.6.0</version>
   <description>hector_xacro_tools</description>
-  <maintainer email="fabian@sim.tu-darmstadt.de">Stefan Fabian</maintainer>
-
+  <maintainer email="marekdaniv@googlemail.com">marek</maintainer>
   <license>BSD</license>
-
   <url type="website">http://ros.org/wiki/hector_xacro_tools</url>
-  <!-- <url type="bugtracker"></url> -->
 
-  <author email="kohlbrecher@sim.tu-darmstadt.de">Stefan Kohlbrecher</author>
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <!-- Dependencies which this package needs to build itself. -->
-  <buildtool_depend>catkin</buildtool_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
 
-  <!-- Dependencies needed to compile this package. -->
-
-  <!-- Dependencies needed after this package is compiled. -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
   <exec_depend>xacro</exec_depend>
-
-  <!-- Dependencies needed only for running tests. -->
-
+  
 </package>
