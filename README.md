@@ -9,6 +9,7 @@ This packages contains various XACRO macros. A list is given below.
 - inertial_sphere [mass, diameter]
 - inertial_sphere_with_pose [mass, diameter, *origin]
 - inertial_cylinder [mass, radius, length]
+- inertial_cylinder_with_pose [mass, radius, length, *origin]
 
 ### joint_macros.urdf.xacro
 
